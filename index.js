@@ -7,6 +7,8 @@ const bodyParser = require('body-parser')
 
 const port = process.env.PORT || 1337;
 
+url="mongodb://admin:Riya4798@cluster0-shard-00-00.95z0k.mongodb.net:27017,cluster0-shard-00-01.95z0k.mongodb.net:27017,cluster0-shard-00-02.95z0k.mongodb.net:27017/Cluster0?ssl=true&replicaSet=atlas-e6l190-shard-0&authSource=admin&retryWrites=true&w=majority";
+
 app.use(cors())
 app.use(bodyParser.json())
 
